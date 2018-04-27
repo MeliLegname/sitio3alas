@@ -6,10 +6,12 @@
 
 :root{
 	--negro: #29272a;
+	--negroclaro: grey;
 	--naranja:#f69c21;
 	--blanco:#ffffff;
 	--negroverdadero: #000;
 	--amarillo: yellow;
+	
 	
 	
 }
@@ -29,6 +31,25 @@ body{
 	
 	
 }
+
+h2{
+	font-size:20px;
+	margin-bottom:16px;
+	
+	
+	
+}
+
+h3 {
+	font-size:17px;
+	padding-left:37px;
+	
+}
+
+
+
+
+
 .cabecera {
 	display: flex;
 	justify-content: space-between;
@@ -54,6 +75,7 @@ h1{
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius:10px 10px 0 0;
 	
 	
 	
@@ -71,6 +93,7 @@ h1{
 	max-height: 58px;
 	max-width: 1000px;
 
+	border-radius:10px 10px 0 0;
 	
 }
 
@@ -112,7 +135,151 @@ h1{
 }
 
 a.sin-borde{
+	
 	border-right: none;
 	
 }
+
+
+
+				/* Seccion slider */
+				
+				
+.slider{
+	text-align:center;
+	margin-top:30px;
+}
+
+					/* seccion categorias */
+
+.categorias{
+	margin-top:50px;
+	width:20%;
+	float:left;
+		margin-bottom:34px;
+	
+}
+
+.botonera-categorias{
+		list-style-type: none;
+		
+}
+
+.botonera-categorias a{
+		display:block;
+		padding: 6px 0;
+
+		text-decoration: none;
+	
+		
+	
+}
+
+.botonera-categorias a:hover{
+	font-weight: bold;
+}
+
+.categorias h2{
+	
+	padding-left:25px;
+	
+	
+}
+
+.botonera-categorias li{
+		
+		border-bottom: 1px dashed black;
+		
+		margin-left:35px;
+	
+	
+}
+
+						/* seccion productos */
+
+.productos{
+	margin-top:50px;
+	margin-bottom:34px;
+
+	width:80%;
+	float:right;
+	
+	padding-right:56px;
+	
+	
+
+	
+}
+.lampara{
+	
+	width:50%;
+	float:left;
+	margin-bottom: 40px;
+	padding-left:35px;
+	
+}
+
+.lampara img{
+	
+	float:left;
+	/* width:50%; no es necesario ponerlo aca tambien si ya lo puse en .lampara p */
+}
+
+.lampara p{
+	float:right;	
+	width:50%;
+	padding-left:30px;
+
+}
+
+
+.newsletter{
+	border-radius: 5px;
+	
+	clear:both;
+	max-width:940px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+
+	border: 1px solid var(--negroclaro);
+	padding:10px 24px;
+	
+	
+	background-image: linear-gradient(var(--blanco), var(--negroclaro));
+	
+	display: flex;
+	
+	/* justify-content: space-between; */
+	align-items:center;
+	
+	
+}
+
+.newsletter p{
+
+		padding-left:80px;
+
+	
+	
+}
+
+.newsletter form{
+	flex-grow:1;
+	display:flex;
+	justify-content:flex-end;
+	
+}
+
+.newsletter form [type="submit"]{
+	background:none;
+	border:none;
+	
+	cursor:pointer;
+	
+	font-weight: bold;
+	padding:5px 8px;
+}
+
 

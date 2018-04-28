@@ -8,6 +8,7 @@
 	--negro: #29272a;
 	--negroclaro: grey;
 	--naranja:#f69c21;
+	--gris: #f0f0f0;
 	--blanco:#ffffff;
 	--negroverdadero: #000;
 	--amarillo: yellow;
@@ -43,6 +44,11 @@ h2{
 h3 {
 	font-size:17px;
 	padding-left:37px;
+	
+}
+
+h4{
+	font-weight:normal;
 	
 }
 
@@ -139,6 +145,33 @@ a.sin-borde{
 	border-right: none;
 	
 }
+
+
+.botonera-lista_formulario{
+	
+	flex-grow:1;
+	display:flex;
+	justify-content:center;
+	padding-left:70px;
+
+	
+	
+}
+
+.botonera-lista_formulario input{
+	
+	padding:2px 4px;
+	
+	
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -282,4 +315,49 @@ a.sin-borde{
 	padding:5px 8px;
 }
 
+.pie{
+	background-color: var(--gris);
+	padding: 6px 50px;
+	border-top: 1px solid var(--negro);
+	margin-top:30px;
+	
+	
+	font-size:14px;
+	color:var(--negro);
+}
 
+
+.pie-copy, .pie-china, .pie-argentina{
+	
+	float:left;
+	padding-right: 15px;
+	
+	
+	
+}
+
+.pie-argentina{
+	border-left: 1px solid var(--negro);
+	padding-left: 15px;
+	
+}
+
+
+
+.pie-creditos{
+	clear: both;
+	text-align:right;
+	color: var(--negroclaro);
+	font-size:12px;
+	
+	
+}
+
+.pie-creditos a{
+	
+	/* aca aplicamos la fuentes de google */
+		font-family: 'Indie Flower', cursive;
+		
+		
+	
+}
